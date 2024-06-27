@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.banner-image {
+  border-radius: 20px;
+  height: 250px;
+}
+.scrolling-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+.scrolling-img {
+  height: 300px;
+  width: auto;
+  padding-top: 40px;
+  cursor: pointer;
+}
+.scrolling-img:hover {
+  padding-top: 10px;
+}
+.diyanamic-Img {
+  height: 500px;
+  padding-left: 50px;
+}
+.item-title {
+  font-weight: bold;
+}
+.topings-list {
+  font-weight: 400;
+}
+.scrolling-img {
+  flex: 0 0 auto;
+}
+/* CSS */
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 12px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-width: 0;
+  outline: none;
+  padding: 8px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  will-change: transform;
+}
+.button-28:disabled {
+  pointer-events: none;
+}
+.item-mins {
+  cursor: pointer;
+  padding-right: 10px;
+  border-radius: 50px;
+  font-weight: bolder;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.counter {
+  font-weight: 500;
+}
+.item-plus {
+  cursor: pointer;
+  padding-left: 10px;
+  font-weight: bolder;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.button-28:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  transform: translateY(-2px);
+}
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+.toping-item {
+  margin-left: -60px;
+}
+.brand {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
